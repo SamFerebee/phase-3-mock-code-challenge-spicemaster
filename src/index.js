@@ -25,7 +25,6 @@ const populateIngredients = data => {
     }
     data.forEach(spice =>{
         if(spice.spiceblendId == currentSpiceId){
-            console.log("this is running")
             let li = document.createElement("li");
             li.textContent = spice.name;
             document.querySelector("div.ingredients-container > ul.ingredients-list").append(li);
