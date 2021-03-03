@@ -18,13 +18,11 @@ const makeSpiceBlend = data => {
 }
 
 const populateIngredients = data => {
-    //remove all the existing lis to populate w/ new lis from newly selected spiceblend
+    //remove the ul and make a fresh one w/ new ingredients
     if(spiceDiv.querySelector("ul.ingredients-list")){
         spiceDiv.querySelector("ul.ingredients-list").remove();
         document.querySelector("div.ingredients-container").innerHTML += `<ul class = "ingredients-list"> </ul>`;
     }
-    console.log(currentSpiceId)
-    console.log(data)
     data.forEach(spice =>{
         if(spice.spiceblendId == currentSpiceId){
             console.log("this is running")
