@@ -2,7 +2,7 @@
   "spiceblends": [
     {
       "id": 1,
-      "title": "test1",
+      "title": "new",
       "image": "./assets/spices/pumpkinspicelatte.jpg"
     },
     {
@@ -106,6 +106,21 @@
       "name": "Pepper",
       "spiceblendId": 3,
       "id": 17
+    },
+    {
+      "name": "new ing",
+      "spiceblendId": 1,
+      "id": 18
+    },
+    {
+      "name": "new",
+      "spiceblendId": 1,
+      "id": 19
+    },
+    {
+      "name": "new for za",
+      "spiceblendId": "2",
+      "id": 20
     }
   ]
 }
